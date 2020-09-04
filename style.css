@@ -13,9 +13,9 @@ h1 {
  .frame {
 	 position: absolute;
 	 top: 60%;
-	 left:100%;
-	 width: 350px;
-	 height: 400px;
+	 left:110%;
+	 width: 150px;
+	 height: 200px;
 	 margin-top: -200px;
 	 margin-left: -200px;
 	 border-radius: 2px;
