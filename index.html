@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
 	<tittle>AI와 함께 4학년 체력 운동하기</tittle>
 		<center><div class="tittle-img"><img src="img/6.png"
-									 style="width:60%;height:20%;">
+									 style="width:100%;height:20%;">
 			</div>
 		<h1 style>
 			몸의 힘을 기르는 운동(스쿼트)를 함께 해 봅시다.
@@ -33,11 +33,11 @@
         <div class="frame">
             <div class="center">
                 <div class="headline">
-                    <div class="big"></div>
+                    <div class="small">근력기르기</div>스쿼트
                 </div>
                 <div class="circle-big">
                     <div class="text">
-                        <span id="counter">0</span><div class="small">개</div>
+                        <span id="counter">현재 0</span><div class="small">개</div>
                     </div>
                     <svg>
                         <circle class="bg" cx="57" cy="57" r="52" />
@@ -83,7 +83,7 @@
             maxPredictions = model.getTotalClasses();
 
             // Convenience function to setup a webcam
-            const size = 350;
+            const size = 500;
             const flip = true; // whether to flip the webcam
             webcam = new tmPose.Webcam(size, size, flip); // width, height, flip
             await webcam.setup(); // request access to the webcam
