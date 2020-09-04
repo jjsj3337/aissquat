@@ -12,8 +12,8 @@ h1 {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300);
  .frame {
 	 position: absolute;
-	 top: 50%;
-	 left: 70%;
+	 top: 60%;
+	 left:100%;
 	 width: 350px;
 	 height: 400px;
 	 margin-top: -200px;
@@ -138,11 +138,4 @@ h1 {
  .circle-small .text .small {
 	 font-size: 12px;
 	 color: #648192;
-}
-.containermt-5 {
-	 position: absolute;
-	 top: 50%;
-	 left: 70%;
-	 width: 200px;
-	 height: 200px;
 }
